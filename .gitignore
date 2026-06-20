@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Trained models
+*.pt
+*.onnx
+
+# Training outputs
+results/
+
+# Large datasets
+dataset/original/
+dataset/processed/
+
+# Logs
+*.log
+
+# Pretrained models
+models/pretrained/
