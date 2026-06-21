@@ -34,3 +34,6 @@ dataset/processed/
 
 # Pretrained models
 models/pretrained/
+
+# training cache
+*.cache
