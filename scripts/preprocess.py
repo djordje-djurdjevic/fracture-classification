@@ -71,10 +71,10 @@ def apply_pipeline(img, steps):
 
 def main():
     # CLAHE
-    # steps = [clahe]
+    steps = [clahe]
 
     # CLAHE and sharpening
-    steps = [clahe, sharpen]
+    # steps = [clahe, sharpen]
 
     # blur and CLAHE
     # steps = [gaussian_blur, clahe]

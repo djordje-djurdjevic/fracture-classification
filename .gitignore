@@ -25,9 +25,12 @@ Thumbs.db
 # Training outputs
 results/
 
-# Large datasets
-dataset/original/
-dataset/processed/
+# Large datasets (ignore content, but keep structure)
+dataset/original/*
+dataset/processed/*
+
+!dataset/original/.gitkeep
+!dataset/processed/.gitkeep
 
 # Logs
 *.log

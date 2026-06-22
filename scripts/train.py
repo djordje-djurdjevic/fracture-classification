@@ -8,5 +8,5 @@ model.train(
     imgsz=224,
     batch=16,
     project="results",
-    name="proccesed_clahe"
+    name="full_pipeline"
 )
