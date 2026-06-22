@@ -26,17 +26,14 @@ https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-da
 
 
 Structure:
+```
 dataset/
-
 ├── original/
-
 │ ├── train/
-
 │ ├── val/
-
 │ └── test/
-
 ├── processed/
+```
 
 Classes:
 - fractured
@@ -80,20 +77,14 @@ Different combinations were tested to analyze their effect on model performance.
 ---
 
 ## Project Structure
+```
 ├── dataset/
-
 │ ├── original/
-
 │ └── processed/
-
 ├── scripts/    
-
-├── results/
-
 ├── docs/
-
 ├── README.md
-
+```
 
 Install dependencies:
 
